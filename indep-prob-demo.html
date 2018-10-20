@@ -9,21 +9,21 @@
 		<rect width='191' height='309' fill='lightblue'>
 			<animate id='blue'
 				attributeName='width'
-				values='0; 500'
-				begin='2s'
+				values='0; 191; 500; 191'
+				begin='1s'
 				dur='10s'
-				fill='freeze'
+				calcMode='paced'
 				/>
 		</rect>
 		<rect width='500' height='118' fill='red' fill-opacity='0.3'>
-			<animate
+<!-- 			<animate
 				attributeName='height'
 				values='0; 309; 0'
 				begin='blue.begin'
 				dur='2s'
 				repeatCount='5'
 				fill='freeze'
-				/>
+				/> -->
 		</rect>
 	</svg>
 </body>
